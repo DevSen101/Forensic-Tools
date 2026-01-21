@@ -549,21 +549,128 @@ exiftool -all= image.jpg
 
 ---
 
-### 🕵️ Steganography
+### Metadata Forensics
 
-Detect and extract hidden data in files.
+- [ExifTool](https://exiftool.org/) by Phil Harvey
+- [Exiv2](https://www.exiv2.org) - Exiv2 is a Cross-platform C++ library and a command line utility to manage image metadata
+- [FOCA](https://github.com/ElevenPaths/FOCA) - FOCA is a tool used mainly to find metadata and hidden information in the documents
 
-- **[Steghide](http://steghide.sourceforge.net/)** - Hide data in images and audio
-- **[StegSeek](https://github.com/RickdeJager/stegseek)** - Lightning-fast steghide cracker
-- **[Stegsolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve)** - Image analysis for hidden data
-- **[Binwalk](https://github.com/ReFirmLabs/binwalk)** - Firmware and embedded file extraction
-- **[Foremost](http://foremost.sourceforge.net/)** - File carving based on headers/footers
+### Website Forensics
+
+- [Freezing Internet Tool](https://github.com/fit-project/fit) - Python 3 application for forensic acquisition of online content, including web pages, emails, and social media.
+
+## Learn forensics
+
+- [Forensic challenges](https://www.amanhardikar.com/mindmaps/ForensicChallenges.html) - Mindmap of forensic challenges
+- [OpenLearn](https://www.open.edu/openlearn/science-maths-technology/digital-forensics/content-section-0?active-tab=description-tab) - Digital forensic course
+- [Training material](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational) - Online training material by European Union Agency for Network and Information Security for different topics (e.g. [Digital forensics](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational/#digital_forensics), [Network forensics](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material/technical-operational/#network_forensics))
+
+### Challenges
+
+- [AnalystUnknown Cyber Range](https://aucr.io/auth/login?next=%2F)
+- [Champlain College DFIR CTF](https://champdfa-ccsc-sp20.ctfd.io)
+- [Corelight CTF](https://www3.corelight.com/l/420832/2020-03-31/lcxk2q)
+- [CyberDefenders](https://cyberdefenders.org) 
+- [DefCon CTFs](https://archive.ooo) - archive of DEF CON CTF challenges.
+- [Forensics CTFs](https://github.com/apsdehal/awesome-ctf/blob/master/README.md#forensics)
+- [IncidentResponse Challenge](https://incident-response-challenge.com)
+- [MagnetForensics CTF Challenge](https://www.magnetforensics.com/blog/magnet-weekly-ctf-challenge)
+- [MalwareTech Challenges](https://www.malwaretech.com/challenges)
+- [MalwareTraffic Analysis](https://www.malware-traffic-analysis.net/training-exercises.html)
+- [MemLabs](https://github.com/stuxnet999/MemLabs)
+- [NW3C Chanllenges](https://nw3.ctfd.io)
+- [PivotProject](https://pivotproject.org/challenges/digital-forensics-challenge)
+- [Precision Widgets of North Dakota Intrusion](https://betweentwodfirns.blogspot.com/2017/11/dfir-ctf-precision-widgets-of-north.html)
+- [ReverseEngineering Challenges](https://challenges.re)
+- [SANS Forensics Challenges](https://digital-forensics.sans.org/community/challenges)
+
+## Resources
+
+### Webs
+
+- [ForensicsFocus](https://www.forensicfocus.com/)
+- [InsecInstitute Resources](https://resources.infosecinstitute.com/)
+- [SANS Digital Forensics](https://digital-forensics.sans.org/)
+
+
+### Blogs
+
+- [Cyberforensics](https://cyberforensics.com/blog/)
+- [Cyberforensicator](https://cyberforensicator.com/)
+- [DigitalForensicsMagazine](https://digitalforensicsmagazine.com/blogs/)
+- [FlashbackData](https://www.flashbackdata.com/blog/)
+- [Netresec](https://www.netresec.com/index.ashx?page=Blog)
+- [roDigitalForensics](https://prodigital4n6.com/blog/)
+- [SANS Forensics Blog](https://www.sans.org/blog/?focus-area=digital-forensics)
+- [SecurityAffairs](https://securityaffairs.co/wordpress/) - blog by Pierluigi Paganini
+- [thisweekin4n6.wordpress.com](thisweekin4n6.wordpress.com) - Weekly updates for forensics
+- [Zena Forensics](https://blog.digital-forensics.it/)
+
+### Books
+
+*more at [Recommended Readings](http://dfir.org/?q=node/8) by Andrew Case*
+
+- [Network Forensics: Tracking Hackers through Cyberspace](https://www.pearson.com/us/higher-education/program/Davidoff-Network-Forensics-Tracking-Hackers-through-Cyberspace/PGM322390.html) - Learn to recognize hackers’ tracks and uncover network-based evidence
+- [The Art of Memory Forensics](https://www.memoryanalysis.net/amf) - Detecting Malware and Threats in Windows, Linux, and Mac Memory
+- [The Practice of Network Security Monitoring](https://nostarch.com/nsm) - Understanding Incident Detection and Response
+- [Cell Phone Investigations: Search Warrants, Cell Sites and Evidence Recovery](https://cryptome.org/2015/11/Cell-Phone-Investigations.pdf) - Cell Phone Investigations is the most comprehensive book written on cell phones, cell sites, and cell related data.
+
+### File System Corpora
+
+- [Digital Forensic Challenge Images](https://www.ashemery.com/dfir.html) - Two DFIR challenges with images
+- [Digital Forensics Tool Testing Images](http://dftt.sourceforge.net)
+- [FAU Open Research Challenge Digital Forensics](https://openresearchchallenge.org/digitalForensics/appliedforensiccomputinggroup)
+- [The CFReDS Project](https://www.cfreds.nist.gov)
+  - [Hacking Case (4.5 GB NTFS Image)](https://www.cfreds.nist.gov/Hacking_Case.html)
+
+### Twitter
+
+- [@4n6ist](https://twitter.com/4n6ist)
+- [@aheadless](https://twitter.com/aheadless)
+- [@AppleExaminer](https://twitter.com/AppleExaminer) - Apple OS X & iOS Digital Forensics
+- [@blackbagtech](https://twitter.com/blackbagtech)
+- [@carrier4n6](https://twitter.com/carrier4n6) - Brian Carrier, author of Autopsy and the Sleuth Kit
+- [@CindyMurph](https://twitter.com/CindyMurph) - Detective & Digital Forensic Examiner
+- [@EricRZimmerman](https://twitter.com/EricRZimmerman) - Certified SANS Instructor
+- [@forensikblog](https://twitter.com/forensikblog) - Computer forensic geek
+- [@HECFBlog](https://twitter.com/HECFBlog) - SANS Certified Instructor
+- [@Hexacorn](https://twitter.com/Hexacorn) - DFIR+Malware
+- [@hiddenillusion](https://twitter.com/hiddenillusion)
+- [@iamevltwin](https://twitter.com/iamevltwin) - Mac Nerd, Forensic Analyst, Author & Instructor of SANS FOR518
+- [@jaredcatkinson](https://twitter.com/jaredcatkinson) - PowerShell Forensics
+- [@maridegrazia](https://twitter.com/maridegrazia) - Computer Forensics Examiner
+- [@sleuthkit](https://twitter.com/sleuthkit)
+- [@williballenthin](https://twitter.com/williballenthin)
+- [@XWaysGuide](https://twitter.com/XWaysGuide)
+
+
+### Other
+
+- [/r/computerforensics/](https://www.reddit.com/r/computerforensics/) - Subreddit for computer forensics
+- [ForensicControl](https://www.forensiccontrol.com/free-software) - 
+- [ForensicPosters](https://github.com/Invoke-IR/ForensicPosters) - Posters of file system structures
+- [HFS+ Resources](https://github.com/mac4n6/HFSPlus_Resources)
+- [mac4n6 Presentations](https://github.com/mac4n6/Presentations) - Presentation Archives for OS X and iOS Related Research
+- [SANS Forensics CheatSheets](https://digital-forensics.sans.org/community/cheat-sheets) - Different CheatSheets from SANS
+- [SANS Digital Forensics Posters](https://digital-forensics.sans.org/community/posters) - Digital Forensics Posters from SANS
+- [SANS WhitePapers](https://digital-forensics.sans.org/community/whitepapers) - White Papers written by forensic practitioners seeking GCFA, GCFE, and GREM Gold
+
+## Related Awesome Lists
+
+- [Android Security](https://github.com/ashishb/android-security-awesome)
+- [AppSec](https://github.com/paragonie/awesome-appsec)
+- [Awesome Forensics](https://github.com/cugu/awesome-forensics)
+- [CTFs](https://github.com/apsdehal/awesome-ctf)
+- [Hacking](https://github.com/carpedm20/awesome-hacking)
+- [Honeypots](https://github.com/paralax/awesome-honeypots)
+- [Incident-Response](https://github.com/meirwah/awesome-incident-response)
+- [Infosec](https://github.com/onlurking/awesome-infosec)
+- [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [Pentesting](https://github.com/enaqx/awesome-pentest)
+- [Security](https://github.com/sbilly/awesome-security)
+- [Social Engineering](https://github.com/v2-dev/awesome-social-engineering)
+- [YARA](https://github.com/InQuest/awesome-yara)
 
 ---
-
-### 📄 Metadata Extraction
-
-Extract metadata from various file types for intelligence gathering.
-
-- **[ExifTool](https://exiftool.org/)** - Universal metadata reader/writer
-- **[FOCA](https://github.com/ElevenPaths/F
+Made with ❤️ by **Dev Kumar Sen**  
+Just learn, build, and grow.  
